@@ -1,0 +1,63 @@
+####menu
+####菜单栏
+menu:
+  Home: /
+  Archives: /archives
+  About: /about
+
+####widgets
+widgets:
+- search        ##搜索
+- category  ##分类
+- tagcloud  ##标签云
+- weibo     ##新浪微博秀，需要你自己去新浪微博秀获取代码，然后将weibo.ejs中的代码替换掉
+- links     ##友情链接，你可以进入links.ejs进行编辑
+##小插件，在concise/layout/_widget文件夹下提供了7个小插件，要使用的在widgets进行配置即可，
+##不使用则去掉，其中search默认使用的google，如果你想使用和我一样的站内搜索，可以访问以下链接：
+##http://opiece.me/2015/04/16/site-search-by-swiftype/
+
+duoshuo_enable: true    ##不想用，改为false即可
+duoshuo_shortname: gaoxuefeng    ##你的多说shortname，上面为true，这个才会起效果，在多说官网注册一个自己的站点，在生成的代码里可以看到自己的shortname，在此处将chillax改成你的多说shortname即可。
+baidu_sid: 4c3782dc0cacd99020a13bb244258b4a
+##baidu statistics id，百度统计sid，该sid为百度统计代码中：hm.src = "//hm.baidu.com/hm.js?之后的一串字符
+
+excerpt_link: Read more ##文章摘要下方的阅读更多
+
+twitter:    ##twitter
+  username:
+  show_replies: false
+  tweet_count: 5
+
+#### Fancybox   ##图片效果
+fancybox: true
+
+google_analytics:   ##google分析
+
+#### RSS    ##RSS订阅
+rss: /atom.xml
+## RSS address.
+
+#### Image
+imglogo:
+  enable: true         ## 是否开启网站的logo，标题左边的logo。
+  src: imgs/header.jpg   ## 图片放在`/concise/source/imgs`目录下,使用.svg和.png格式的图片.
+favicon: imgs/favicon.ico   ## 浏览器标签上显示的图片,放在`/concise/source/imgs`下.
+
+author_img_enable: true     ## 是否开启作者头像,左下角会旋转头像.
+author_img: imgs/header.jpg ## 作者头像的路径,以../comcise/source/文件夹为根路径,如果放在imgs文件夹下,格式如本人范例
+
+
+#### 作者信息，主要用于右下角的一些小图标链接的显示
+author:
+  google_plus:    ## eg:116338260303228776998 for https://plus.google.com/u/0/116338260303228776998
+  intro_line1: "Gaoxuefeng's Blog" ##博客底部的第一句话
+  intro_line2: "一个90后程序员，只是想再往前走得更远" ##底部底部的第二句话
+  weibo: XuefGao
+  twitter:    ## e.g. yangjiansky for https://twitter.com/yangjiansky
+  github: ggsoul
+  facebook:
+  tsina:      ## e.g. 1923610190  Your weibo ID,It will be used in share button.
+  linkedin:   ## e.g. in/jeffweiner08 for https://www.linkedin.com/in/jeffweiner08
+  email: gaoxuefeng@baidu.com
+  
+
